@@ -112,7 +112,7 @@ function MdLinks(path,options={validate: false, stats: false}) {
         
     }}        
 }
-exports.MdLinks=MdLinks;
+exports.MdLinks =  MdLinks(path,options={validate: false, stats: false});
 
 // MdLinks('C:/Users/javie/Desktop/proyectos/Cuarto proyecto/SCL017-md-link/Markdown/',option = {validate: true})
 // MdLinks('C:/Users/javie/Desktop/proyectos/Cuarto proyecto/SCL017-md-link/Markdown/',option = {validate: false})
