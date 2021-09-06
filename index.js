@@ -112,14 +112,14 @@ function MdLinks(path,options={validate: false, stats: false}) {
         
     }}        
 }
-exports.MdLinks =  MdLinks();
+exports.MdLinks =  MdLinks;
 
 // MdLinks('C:/Users/javie/Desktop/proyectos/Cuarto proyecto/SCL017-md-link/Markdown/',option = {validate: true})
 // MdLinks('C:/Users/javie/Desktop/proyectos/Cuarto proyecto/SCL017-md-link/Markdown/',option = {validate: false})
 // MdLinks('C:/Users/javie/Desktop/proyectos/Cuarto proyecto/SCL017-md-link/Markdown/README2.md',option = {validate: true})
 // MdLinks('C:/Users/javie/Desktop/proyectos/Cuarto proyecto/SCL017-md-link/Markdown/README2.md',option = {validate: false})
 // MdLinks('C:/Users/javie/Desktop/proyectos/Cuarto proyecto/SCL017-md-link/Markdown/README2.md',{stats:true})
-
+MdLinks()
 
 
 
