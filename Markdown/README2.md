@@ -1,9 +1,9 @@
 # Dillinger
 ## _The Last Markdown Editor, Ever_
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+[EL AMAZON](https://www.amazon.com/error)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[EL FLICKR](https://www.flickr.com/photos/404error1)
 
 Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
 AngularJS-powered HTML5 Markdown editor.
