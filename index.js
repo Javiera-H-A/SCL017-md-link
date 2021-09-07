@@ -3,9 +3,7 @@ const fs=require('fs');
 const PATH=require('path');
 const fetch= require('fetch')
 
-
-
-function MdLinks(path,options={validate: false, stats: false}) {
+const MdLinks = (path,options={validate: false, stats: false}) => {
     let currentPath = PATH.basename(__dirname)
     if(fs.lstatSync(path).isDirectory()){ 
         let fileList = fs.readdirSync(path);
@@ -112,14 +110,15 @@ function MdLinks(path,options={validate: false, stats: false}) {
         
     }}        
 }
-exports.MdLinks =  MdLinks;
+module.exports = {
+    MdLinks
+}
 
 // MdLinks('C:/Users/javie/Desktop/proyectos/Cuarto proyecto/SCL017-md-link/Markdown/',option = {validate: true})
 // MdLinks('C:/Users/javie/Desktop/proyectos/Cuarto proyecto/SCL017-md-link/Markdown/',option = {validate: false})
 // MdLinks('C:/Users/javie/Desktop/proyectos/Cuarto proyecto/SCL017-md-link/Markdown/README2.md',option = {validate: true})
 // MdLinks('C:/Users/javie/Desktop/proyectos/Cuarto proyecto/SCL017-md-link/Markdown/README2.md',option = {validate: false})
 // MdLinks('C:/Users/javie/Desktop/proyectos/Cuarto proyecto/SCL017-md-link/Markdown/README2.md',{stats:true})
-MdLinks()
-
+// MdLinks('C:/Users/javie/Desktop/proyectos/Cuarto proyecto/SCL017-md-link/Markdown/',{stats:true})
 
 
