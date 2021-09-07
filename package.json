@@ -1,7 +1,34 @@
 {
   "name": "markdown-links",
   "version": "0.1.0",
+  "description": "Markdown link extractor and validator",
+  "main": "index.js",
   "dependencies": {
     "fetch": "^1.1.0"
+  },
+  "bin": {
+    "md-links": "./cli.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "eslint": "eslint ."
+  },
+  "author": "Javiera S. Herrera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Javiera-H-A/md-link/issues",
+    "email": "javierab.herrera@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javiera-H-A/md-link"
+  },
+  "homepage": "https://github.com/Javiera-H-A/md-link#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "jest": "^27.1.0"
   }
 }
